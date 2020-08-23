@@ -1,0 +1,11 @@
+Here is my submission for the automated testing assignment, the tests can be found in the map called: "FTEST_AmmoPickUp".
+
+The tests can be found under the category: "Project"
+
+In the map there are 5 different tests:
+1. BP_BrokenPickUpTest: This test checks what happens when a player character picks up an ammo pick up that gives negative ammo.
+2. BP_IsForWeaponTest: This test checks if the character can use the pick up with the current weapon. (Note: This test has been working strangely and fails sometimes even though
+it shouldnt, should this happen and if you wish you can delete it from the scene and drag it out again, the test objects are in front of the test blueprint. After this it always works.)
+3. BP_MaxAmmoPickUp: This PickUp makes sure that the player can pick up max ammo.
+4. BP_PickedUpTest: This test makes sure that the pick up is picked up properly
+5. BP_UpdateAmmoTest: This test makes sure that the player characters ammo variable is updated properly.
